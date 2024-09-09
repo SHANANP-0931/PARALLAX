@@ -1,0 +1,10 @@
+.slider-container {
+    margin: 50px auto;  /* Reduced the margin */
+    width: 40%;         /* Decreased the container size to 40% */
+  }
+  
+  .slide img {
+    width: 100%;        /* Make the image fully fit the container */
+    border-radius: 10px;
+  }
+  

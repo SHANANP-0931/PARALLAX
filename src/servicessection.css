@@ -1,0 +1,41 @@
+.services-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .services-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-box {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-box p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .service-box {
+      width: 90%;
+    }
+  }
+  
